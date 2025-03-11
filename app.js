@@ -1,2 +1,3 @@
-let titulo= document.querySelector('h1');
-titulo.innerHTML= 'Juego del amigo secreto'
+function intentoDeUsuario(){
+    alert('Click desde el botón');
+}
