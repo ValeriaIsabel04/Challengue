@@ -13,7 +13,7 @@
 <body>
     <main class="main-content">
         <header class="header-banner">
-            <h1 class="main-title">Juego del amigo secreto</h1>
+            <h1 class="main-title">¡Descubre tu Amigo Secreto! 🎉</h1>
             <img src="assets/amigo-secreto.png" alt="Imagen representativa de amigo secreto">
         </header>
         
@@ -21,16 +21,16 @@
             <h2 class="section-title">Ingresa el nombre de los participantes</h2>
             <div class="input-wrapper">
                 <input type="text" id="amigo" class="input-name" placeholder="Escribe un nombre">
-                <button class="button-add" onclick="verificarIntento();">Añadir</button>
+                <button class="button-add" onclick="agregarAmigo();">Añadir</button>
             </div>
             <div class = "card">
-            <ul id="amigo" class="name-list" aria-labelledby="listaAmigos" role="list"></ul>
+            <ul id="listaAmigos" class="name-list" aria-labelledby="listaAmigos" role="list"></ul>
             <ul id="resultado" class="result-list" aria-live="polite"></ul>
             </div>
             <div class="button-container">
-                <button class="button-draw" onclick="alert('click');" aria-label="Icono para sortear amigo">
-                    <img src="assets/play_circle_outline.png" alt="">
-                    Icono para sortear amigo
+                <button class="button-draw" onclick="sortearAmigo();" aria-label="Sortear amigo secreto">
+                    <img src="assets/play_circle_outline.png" alt="Ícono para sortear">
+                    Realizar sorteo
                 </button>
                 <button class="button-reset" onclick="reiniciarLista();" aria-label="Reiniciar lista">
                     Reiniciar lista
