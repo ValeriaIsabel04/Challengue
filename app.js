@@ -1,5 +1,4 @@
-function verificarIntento(){
-    let numeroDeUsuario= document.getElementById('amigo');
-    console.log(numeroDeUsuario);
+function verificarIntento() {
+    let input= document.getElementById("amigo");
 }
 
