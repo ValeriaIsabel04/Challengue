@@ -1,4 +1,4 @@
 function verificarIntento(){
-    alert('Click desde el botón');
+    let numeroDeUsuario= document.querySelector('input');
 }
 
